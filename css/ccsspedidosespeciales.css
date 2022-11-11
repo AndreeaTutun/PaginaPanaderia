@@ -1,0 +1,120 @@
+.container{
+  align-items:flex-start;
+  background-color: rgba(251,251,251,255);
+  display: flex;
+  font-size: 17px;
+  height: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 80%;
+  
+}
+
+.tit{
+  color: rgba(251,251,251,255);
+  margin-bottom: 40px;
+  margin-top: 20px;
+  text-align: center;
+  text-shadow: 1px 1px 10px black;
+}
+
+form{
+  height: 90%;
+  margin-top: 40px;
+  width: 90%;
+}
+
+textarea{
+	background-color:rgba(234,220,166,.5);			
+	border:1px solid rgba(234,220,166,255);
+	border-radius:3px;
+  box-shadow: 0px 6px 6px -6px black;
+	display:block;
+  font-size: 15px;
+	height:100px;
+	margin:8px 0;
+  margin-bottom: 30px;
+	resize:none;
+	width:100%;
+}
+.alergias{
+  align-items:flex-start ;
+	height:70px;
+  justify-content: center;
+  width:40%;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+
+.date{
+  background-color:rgba(234,220,166,.5);
+  border:1px solid rgba(234,220,166,255);
+	border-radius:3px;
+  box-shadow: 0px 6px 6px -6px black;
+  font-size: 15px;
+  height: 20px;
+  margin-left: 10px;
+  width: 30%;
+}
+article{
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  
+}
+.fecha{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+.numero{
+  background-color:rgba(234,220,166,.5);
+  border:1px solid rgba(234,220,166,255);
+	border-radius:3px;
+  box-shadow: 0px 6px 6px -6px black;
+  height: 20px;
+  width: 20%;
+}
+.hora{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 25%;
+}
+
+.horas{
+  background-color:rgba(234,220,166,.5);
+  border:1px solid rgba(234,220,166,255);
+	border-radius:3px;
+  box-shadow: 0px 6px 6px -6px black;
+  font-size: 15px;
+  height: 20px;
+  margin-left: 10px;
+  width: 30%;
+}
+
+.enviar{
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 25px;
+	font-size: 20px;
+  margin: 0 auto;
+  padding: 15px;
+	
+}
+.enviar:hover{
+	color: black;
+	cursor: pointer;
+  background-color: rgba(251,251,251,255);
+  border: 1px solid black;
+	box-shadow: 0 10px 30px 1px rgba(0,0,0,.8);
+}

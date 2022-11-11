@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/css.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/ccsspedidosespeciales.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Dancing+Script&family=Fuzzy+Bubbles:wght@700&family=Lato&family=Open+Sans&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fe8e1dfd41.js" crossorigin="anonymous"></script>
+  <title>Pedidos Especiales</title>
+
+
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="/indexpedidos.html">Productos</a></li>
+        <li><a href="#">Pedidos especiales</a></li>
+        <li><a href="#" class="carro"><i class="fa-solid fa-basket-shopping"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1 class="tit">Crea tu producto personalizado</h1>
+  <div class="container">
+
+
+    <form action="formulario">
+      <label for="descripcion">Detalla una descripción del producto que desea</label>
+      <textarea name="mensaje" id="descripcion" maxlength="300" required></textarea>
+      <label for="descripcion">¿Tienes alguna alergia o algún ingrediente que no te guste?</label>
+      <textarea name="alergias" class="alergias" maxlength="100" required></textarea>
+
+      <section>
+        <article>
+          Escriba el número de unidades que deseas:
+          <input type="numero" name="numero" min="1" max="50" class="numero" required/>
+        </article>
+
+        <article class="fecha">
+          <label for="fecha">Elige la fecha de entrega</label>
+          <input type="date" id="fecha" class="date" min="2022-11-11" required/>
+        </article>
+
+        <article class="hora">
+          <label for="hora">¿A qué hora?</label>
+          <input type="time" id="hora" class="horas" min="09:00" max="21:00"  required>
+
+        </article>
+      </section>
+      <input type="submit" value="Guardar pedido" class="enviar">
+    </form>
+  </div>
+
+
+
+  <footer>
+    <article class="documentos">
+      <p>Sobre nosotros</p>
+      <a href="#">¿Quiénes somos?</a><br />
+      <a href="documentos/POLÍTICA DE PRIVACIDAD DEL SITIO WEB.pdf" target="_blank">Política de privacidad</a><br />
+      <a href="documentos/Política de Cookies.pdf">Política de cookies</a><br />
+      <a href="documentos/AVISO LEGAL Y CONDICIONES GENERALES DE USO.pdf" target="_blank">Condiciones legales</a><br />
+    </article>
+    <article class="pedido">
+      <p class="intro">Haz tu pedido por teléfono</p>
+      <p class="tel">666 666 666</p>
+      <p>Horario de lunes a viernes de 08:00 a 21:00</p>
+    </article>
+    <article class="redes">
+      <p>Síguenos en redes sociales</p>
+      <ul>
+        <li><a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a></li>
+        <li><a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+      </ul>
+    </article>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/css.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/csspedidos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Dancing+Script&family=Fuzzy+Bubbles:wght@700&family=Lato&family=Open+Sans&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fe8e1dfd41.js" crossorigin="anonymous"></script>
+  <title>Productos</title>
+
+  <script>
+    const abrir_panel = () => {
+      const panel = document.querySelectorAll('.panel')[0].style;
+      panel.display = panel.display === 'none' ? 'block' : 'none';
+    };
+
+  </script>
+</head>
+
+<body>
+  <header>
+    <div id="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Inicio</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="/pedidosespeciales.html">Pedidos especiales</a></li>
+        <li><a href="#" class="carro"><i class="fa-solid fa-basket-shopping"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="panel">
+    <a href="#" class="cerrar" onclick="abrir_panel()"><i class="fa-solid fa-circle-xmark"></i></a>
+    <iframe src="/carrito.html" frameborder="0" class="ifr"></iframe>
+  </div>
+
+<h1 class="catalogo">Nuestro catálogo</h1>
+<h2 class="tit">Pan tradicional hecho a mano</h2>
+  <section class="productos">
+      <article class="producto">
+        <div class="imagen">
+          <img src="img/imgproductos/chapata.jpg" alt="PanChapata"/>
+          <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+          <h2>1,50€</h2>
+        </div>
+
+        <div class="descripcion">
+          <h1>Pan chapata artesano</h1>
+          
+          <p class="desc">Pan de gran hidratación, se caracteriza por una miga esponjosa, elástica y alveolada, una corteza crujiente y un sabor suave.
+             </p>
+          
+            <button class="carrito">Añadir al carrito</button>
+          </div>
+        </div>
+      </article>
+     
+      <article class="producto">
+        <div class="imagen">
+          <img src="img/imgproductos/panAlfacar.jpg" alt="panAlfacar"/>
+          <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+          <h2>1€</h2>
+        </div>
+
+        <div class="descripcion">
+          <h1>Pan de Alfacar</h1>
+          
+          <p class="desc">El pan de Alfacar es un pan tradicional, producido en los municipios Alfacar y Víznar de Granada en España.
+             Por su elaboración artesanal, es un producto de larga conservación, su frescor dura entre 2 a 3 días. Se puede congelar.</p>
+          
+            <button class="carrito">Añadir al carrito</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="producto">
+        <div class="imagen">
+          <img src="img/imgproductos/payes.jpg" alt="PanPayes"/>
+          <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+          <h2>2,95€</h2>
+        </div>
+
+        <div class="descripcion">
+          <h1>Pan de Payes 1Kg</h1>
+          
+          <p class="desc">Pan redondo rústico, elaborado simulando el proceso tradicional. Caracterizado por una corteza gruesa y una miga tupida y esponjosa.
+            El pan de Payes de 1 kg se vende listo para ser consumido.  
+          </p>
+          
+            <button class="carrito">Añadir al carrito</button>
+          </div>
+        </div>
+      </article>
+      
+      <article class="producto">
+        <div class="imagen">
+          <img src="img/imgproductos/Mollete-andaluz.jpg" alt="Mollete"/>
+          <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+          <h2>0,15€</h2>
+        </div>
+
+        <div class="descripcion">
+          <h1>Mollete andazul 30g</h1>
+          
+          <p class="desc">Pan redondo de corteza blanda y miga suave, Ideal para desayunos acompañado de aceite de oliva. 
+            La mejor forma de comenzar el día.</p>
+          
+            <button class="carrito">Añadir al carrito</button>
+          </div>
+        </div>
+      </article>
+      
+      <article class="producto">
+        <div class="imagen">
+          <img src="img/imgproductos/Hogaza-Rustica.jpg" alt="hogaza"/>
+          <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+          <h2>1,50€</h2>
+        </div>
+
+        <div class="descripcion">
+          <h1>Hogaza Rústica 500g</h1>
+          
+          <p class="desc">Pan rústico tradicional redondo de corteza gruesa y enharinada.
+
+          </p>
+          
+            <button class="carrito">Añadir al carrito</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="producto">
+        <div class="imagen">
+          <img src="img/imgproductos/barra-mediana-singluten.jpg" alt="sigluteb"/>
+          <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+          <h2>0,50€</h2>
+        </div>
+
+        <div class="descripcion">
+          <h1>Barra mediana sin gluten 100g </h1>
+          
+          <p class="desc">Pan sin gluten con el formato perfecto para acompañar tus comidas o tus bocadillos. Corteza crujiente y miga suave.
+
+          </p>
+          
+            <button class="carrito">Añadir al carrito</button>
+          </div>
+        </div>
+      </article>   
+
+      <article class="producto">
+        <div class="imagen">
+          <img src="img/imgproductos/panintegral.jpg" alt="integral"/>
+          <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+          <h2>1,50€</h2>
+        </div>
+
+        <div class="descripcion">
+          <h1>Pan Integral</h1>
+          
+          <p class="desc">Pan 100% integral, elaborado únicamente con harina de trigo integral, agua y sal. 
+
+            Nuestros panes integrales están fermentados durante 24 horas únicamente con masa madre de trigo integral.
+
+          </p>
+          
+            <button class="carrito">Añadir al carrito</button>
+          </div>
+        </div>
+      </article>  
+      
+      <article class="producto">
+        <div class="imagen">
+          <img src="img/imgproductos/panleña.jpg" alt="leña"/>
+          <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+          <h2>3,50€</h2>
+        </div>
+
+        <div class="descripcion">
+          <h1>Pan al Horno de Leña</h1>
+          
+          <p class="desc">Pan realizado en horno de leña al estilo tradicional, con corteza crujiente y miga esponjosa. 
+
+          </p>
+          
+            <button class="carrito">Añadir al carrito</button>
+          </div>
+        </div>
+      </article>  
+
+      <article class="producto">
+        <div class="imagen">
+          <img src="img/imgproductos/semillas.jpg" alt="semillas"/>
+          <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+          <h2>1,20€</h2>
+        </div>
+
+        <div class="descripcion">
+          <h1>Barra de cereales y semillas</h1>
+          
+          <p class="desc"> El pan de semillas y cereales es de corteza dura, textura esponjosa y sabor característico. 
+
+          </p>
+          
+            <button class="carrito">Añadir al carrito</button>
+          </div>
+        </div>
+      </article> 
+  </section>
+
+
+
+  <h2 class="tit">Bollería</h2>
+  <section class="productos">
+    <article class="producto">
+      <div class="imagen">
+        <img src="img/imgproductos/croisant.jpg" alt="Croissant"/>
+        <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+        <h2>0,90€</h2>
+      </div>
+
+      <div class="descripcion">
+        <h1>Croassant 80gr</h1>
+        
+        <p class="desc">Bollo de masa hojaldrada y toque de mantequilla con forma de luna creciente. La mantequilla que utilizamos para su elaboración le da un sabor dulce y delicado. Es el perfecto acompañante para los desayunos diarios.
+           </p>
+        
+          <button class="carrito">Añadir al carrito</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="producto">
+      <div class="imagen">
+        <img src="img/imgproductos/CROISSANTCACAO.jpg" alt="croisantcacao"/>
+        <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+        <h2>1€</h2>
+      </div>
+
+      <div class="descripcion">
+        <h1>Croassant Relleno Chocolate</h1>
+        
+        <p class="desc">Croissant tierno relleno de crema de cacao con avellanas, decorado con pepitas de chocolate. 
+
+        </p>
+        
+          <button class="carrito">Añadir al carrito</button>
+        </div>
+      </div>
+    </article>    
+   
+    <article class="producto">
+      <div class="imagen">
+        <img src="img/imgproductos/Napolitana.jpg" alt="napolitana"/>
+        <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+        <h2>1€</h2>
+      </div>
+
+      <div class="descripcion">
+        <h1>Napolitana 120g</h1>
+        
+        <p class="desc">Fina masa artesana, rellena de chocolate puro y decorado con granillo de chocolate. Recién sacadas del horno.</p>
+        
+          <button class="carrito">Añadir al carrito</button>
+        </div>
+      </div>
+    </article>
+
+    
+
+    <article class="producto">
+      <div class="imagen">
+        <img src="img/imgproductos/napolitanacrema.jpg" alt="NapolitanaCrema"/>
+        <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+        <h2>1€</h2>
+      </div>
+
+      <div class="descripcion">
+        <h1>Napolitana Crema 120g</h1>
+        
+        <p class="desc">Napolitana con relleno de crema que te endulzará el día.  Recién sacadas del horno.
+        </p>
+        
+          <button class="carrito">Añadir al carrito</button>
+        </div>
+      </div>
+    </article>
+    
+    <article class="producto">
+      <div class="imagen">
+        <img src="img/imgproductos/ensaimada.jpg" alt="ensaimada"/>
+        <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+        <h2>1,20€</h2>
+      </div>
+
+      <div class="descripcion">
+        <h1>Ensaimada De Cabello De Ángel</h1>
+        
+        <p class="desc">Deliciosa especialidad mallorquina, espiral de masa fermentada con manteca pura, rellena de nuestro cabello de ángel y espolvoreada con azúcar glass.</p>
+        
+          <button class="carrito">Añadir al carrito</button>
+        </div>
+      </div>
+    </article>
+    
+    <article class="producto">
+      <div class="imagen">
+        <img src="img/imgproductos/cookie.png" alt="cookie"/>
+        <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+        <h2>0,20€</h2>
+      </div>
+
+      <div class="descripcion">
+        <h1>Cookie</h1>
+        
+        <p class="desc">Una galleta que nunca defrauda y que encanta a todo el mundo. Es la tradicional galleta con pepitas de chocolate.
+
+        </p>
+        
+          <button class="carrito">Añadir al carrito</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="producto">
+      <div class="imagen">
+        <img src="img/imgproductos/Cupcake.jpg" alt="Cupcake"/>
+        <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+        <h2>5€</h2>
+      </div>
+
+      <div class="descripcion">
+        <h1>Cupcakes</h1>
+        
+        <p class="desc">Pack de 3 cupcakes.
+
+          Bizcocho de chocolate con un rica crema.
+
+        </p>
+        
+          <button class="carrito">Añadir al carrito</button>
+        </div>
+      </div>
+    </article>   
+    <article class="producto">
+      <div class="imagen">
+        <img src="img/imgproductos/caña.jpg" alt="caña"/>
+        <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+        <h2>0,40€</h2>
+      </div>
+
+      <div class="descripcion">
+        <h1>Caña de chocolate 100g</h1>
+        
+        <p class="desc">Caña alargada  de hojaldre elaborada con margarina, horneada y con un relleno de chocolate en su interior
+
+        </p>
+        
+          <button class="carrito">Añadir al carrito</button>
+        </div>
+      </div>
+    </article>  
+</section>
+
+<h2 class="tit">Promociones</h2>
+<section class="productos">
+  <article class="producto">
+    <div class="imagen">
+      <img src="img/imgproductos/cestaminipan.jpg" alt="cestaminipan"/>
+      <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+      <h2>10,90€</h2>
+    </div>
+
+    <div class="descripcion">
+      <h1>Cesta de bollos de pan</h1>
+      
+      <p class="desc">Cesta de gran variendad para disfrutar con tus seres queridos.
+         </p>
+      
+        <button class="carrito">Añadir al carrito</button>
+      </div>
+    </div>
+  </article>
+
+  <article class="producto">
+    <div class="imagen">
+      <img src="img/imgproductos/panbollería.jpg" alt="panbolleria"/>
+      <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+      <h2>15€</h2>
+    </div>
+
+    <div class="descripcion">
+      <h1>Cesta de pan y bollos</h1>
+      
+      <p class="desc">Disfruta del mejor deyauno o de la mejor merienda con esta cesta. Consta de pan y de bollos para disfrutar en la mejor compañía.</p>
+      
+        <button class="carrito">Añadir al carrito</button>
+      </div>
+    </div>
+  </article>    
+ 
+  <article class="producto">
+    <div class="imagen">
+      <img src="img/imgproductos/tarrogalletas.jpg" alt="tarro"/>
+      <a href="#"class="fav"><i class="fa-regular fa-heart"></i></a>
+      <h2>10€</h2>
+    </div>
+
+    <div class="descripcion">
+      <h1>Tarro de galletas</h1>
+      
+      <p class="desc">Las mejores galletas hechas a mano. Disfruta de ellas.</p>
+      
+        <button class="carrito">Añadir al carrito</button>
+      </div>
+    </div>
+  </article>
+
+
+</section>
+
+  <footer>
+    <article class="documentos">
+      <p>Sobre nosotros</p>
+      <a href="#">¿Quiénes somos?</a><br />
+      <a href="documentos/POLÍTICA DE PRIVACIDAD DEL SITIO WEB.pdf" target="_blank">Política de privacidad</a><br />
+      <a href="documentos/Política de Cookies.pdf">Política de cookies</a><br />
+      <a href="documentos/AVISO LEGAL Y CONDICIONES GENERALES DE USO.pdf" target="_blank">Condiciones legales</a><br />
+    </article>
+    <article class="pedido">
+      <p class="intro">Haz tu pedido por teléfono</p>
+      <p class="tel">666 666 666</p>
+      <p>Horario de lunes a viernes de 08:00 a 21:00</p>
+    </article>
+    <article class="redes">
+      <p>Síguenos en redes sociales</p>
+      <ul>
+        <li><a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></a></li>
+        <li><a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+      </ul>
+    </article>
+  </footer>
+</body>
+
+</html>

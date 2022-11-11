@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color:rgba(226,194,117,255) ;
+  border: 1px solid;
+  border-bottom: none;
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+  width: 100%;
+
+
+}
+header{
+  align-items: center;
+  background-color: rgba(195,106,45,255);
+  color: rgba(251,251,251,255);
+  text-align: center;
+  font-size: 15px;
+  height: 40px;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.container h2{
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+table{
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  height: 70%;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  width: 100%;
+  
+
+}
+td{
+  height: 10%;
+  margin-left: 20px;
+  text-align: center;
+  width: 10%;
+
+}
+td img{
+  height: 100%;
+  width: 100%;
+}
+
+.fa-xmark{
+  color: black;
+}
+
+.total{
+  border-top: 2px solid;
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  justify-content: flex-end;
+  width: 100%;
+}
+.total p{
+  color:rgba(195,106,45,255);
+  font-size: 15px;
+  font-weight: 700;
+  margin-right: 40px;
+  margin-top: 100px;
+}
+
+.pagar{
+  height: 20%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  width: 100%;
+  
+}
+
+.pago{
+  background-color: rgb(195,106,45);
+  border: none;
+  border-radius: 20%;
+  color: rgba(251,251,251,255);
+  font-size: 15px;
+  font-weight: 700;
+  height: 50px;
+  width: 100px;
+}
+
+.pago:hover{
+  cursor: pointer;
+  border: 3px solid ;
+  border-color: rgba(251,251,251,255);
+}
