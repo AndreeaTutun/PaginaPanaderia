@@ -118,7 +118,7 @@ h1::after{
 
 .tres .sec .cara.cara1{
   align-items: center;
-  background:rgba(226,194,117,255);
+  background:rgba(226,194,117);
   display: flex;
   justify-content: center;
   position: relative;
@@ -127,7 +127,7 @@ h1::after{
 }
 
 .tres .sec:hover .cara.cara1{
-  background: rgba(226,194,117,255);
+  background: rgba(226,194,117);
   transform: translateY(0);
 }
 
@@ -144,7 +144,7 @@ h1::after{
 }
 
 .tres .sec .cara.cara1 .contenido h3{
-  color: rgb(0, 0, 0,);
+  color: rgb(0, 0, 0);
   font-size: 1.5em;
   margin: 10px 0 0;
   padding: 0;
@@ -153,7 +153,7 @@ h1::after{
 
 .tres .sec .cara.cara12{
   align-items: center;
-  background: rgba(251,251,251,255);
+  background: rgba(251,251,251);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   display: flex;
@@ -181,7 +181,7 @@ h1::after{
   width: 90%;
 }
 .textocom{
-  color: rgb(0, 0, 0,);
+  color: rgb(0, 0, 0);
   font-family:'Lato', sans-serif;
   font-size: 30px;
   font-weight: 300;
@@ -204,7 +204,7 @@ h1::after{
   justify-content: space-between;
 }
 .comentario{
-  background: rgba(251,251,251,255);
+  background: rgba(251,251,251);
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 40px;
   border-top-left-radius: 40px;
@@ -239,7 +239,7 @@ h1::after{
 }
 .nombre{
   backface-visibility: hidden;
-  color: rgba(251,251,251,255);
+  color: rgba(251,251,251);
   font-size: 15px;
   left: 50%;
   line-height: 1;
@@ -267,7 +267,7 @@ h1::after{
 }
 
 .leer{
-  background: rgba(251,251,251,255);
+  background: rgba(251,251,251);
   border: none;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
